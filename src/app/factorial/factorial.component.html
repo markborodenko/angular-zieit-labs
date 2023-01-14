@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="card">
+    <div class="form-control">
+      <input type="text" placeholder="Enter number" [(ngModel)]="n">
+    </div>
+    <button class="btn" (click)="calculateFactorial(n)">Factorial</button>
+  </div>
+  <div class="card">
+    <p>Result: {{factorial}}</p>
+  </div>
+</div>
